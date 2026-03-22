@@ -49,9 +49,8 @@ Na seção de releases, você encontrará a versão mais recente com vários arq
 Baixe o arquivo que melhor corresponde à sua configuração:
 
 - Se você usa apenas CPU (sem placa de vídeo dedicada), escolha uma variante “CPU only” ou “x64” / “ubuntu-x64” / “macos-arm64” etc.;
-- Se tem placa NVIDIA, procure variantes com CUDA (ex.: CUDA 12.x ou 13.x, dependendo da sua versão de driver e da idade da placa).;
-- Se tem placa AMD ou Intel Arc, as opções mais comuns são as baseadas em Vulkan (geralmente funcionam bem em Windows e Linux).; e
-- Para macOS (Apple Silicon ou Intel), há pacotes específicos com aceleração Metal.
+- Se tem placa NVIDIA, procure variantes com CUDA (ex.: CUDA 12.x ou 13.x, dependendo da sua versão de driver e da idade da placa); e
+- Se tem placa AMD ou Intel Arc, as opções mais comuns são as baseadas em Vulkan (geralmente funcionam bem em Windows e Linux).
 
 **Dica importante:** as opções exatas e os nomes dos arquivos podem mudar um pouco a cada release. Leia com atenção as orientações disponíveis para escolher a versão correta para o seu sistema e hardware. Caso ainda tenha dúvida sobre qual baixar, a variante CPU-only é a mais segura e compatível com qualquer máquina (embora seja mais lenta por não utilizar GPU).
 
