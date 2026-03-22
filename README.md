@@ -15,7 +15,7 @@ O uso desta ferramenta é de exclusiva responsabilidade do usuário final, que d
 
 ### 0. Baixar e descompactar o llamaLauncher no seu computador
 - Ir em https://github.com/Jayme-G/llamaLauncher/releases/latest e escolher versão para Windows ou Linux;
-- Descompactar e dar um clique duplo no executável "llamaLauncher" para Linux, "llamaLauncher.exe" para Windows;
+- Descompactar e dar um clique duplo no executável "llamaLauncher" para Linux ou "llamaLauncher.exe" para Windows;
 - A interface abrirá, mas nada ainda estará funcionando, porque necessita ainda baixar os modelos de IA de preferência e copiá-los para a basta "models" que fica dentro de "_internal"; e
 - copiar os arquivos e binários do llamaCpp para a pasta bin que também fica dentro de "_internal".
 
