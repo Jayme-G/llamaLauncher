@@ -13,6 +13,12 @@ Em particular, o autor **não endossa nem se responsabiliza** por:
 O software é fornecido "como está", sem garantias de qualquer espécie (expressas ou implícitas), incluindo, mas não se limitando a, garantias de adequação a um propósito específico, não violação de direitos ou funcionamento ininterrupto.
 O uso desta ferramenta é de exclusiva responsabilidade do usuário final, que deve respeitar todas as leis aplicáveis, as licenças dos modelos e as políticas de uso aceitável dos provedores originais.
 
+### 0. Baixar e descompactar o llamaLauncher no seu computador
+- Ir em https://github.com/Jayme-G/llamaLauncher/releases/latest e escolher versão para Windows ou Linux;
+- Descompactar e dar um clique duplo no executável "llamaLauncher" para Linux, "llamaLauncher.exe" para Windows;
+- A interface abrirá, mas nada ainda estará funcionando, porque necessita ainda baixar os modelos de IA de preferência e copiá-los para a basta "models" que fica dentro de "_internal"; e
+- copiar os arquivos e binários do llamaCpp para a pasta bin que também fica dentro de "_internal".
+
 ### 1. Baixar o Modelo no Hugging Face (HF)
 
 #### 1.1. Acesse → https://huggingface.co
