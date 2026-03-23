@@ -48,7 +48,7 @@ O uso desta ferramenta é de exclusiva responsabilidade do usuário final, que d
 Na seção de releases, você encontrará a versão mais recente com vários arquivos compactados (.zip ou .tar.gz) com binários pré-compilados do llama.cpp para diferentes sistemas operacionais e tipos de aceleração de hardware.
 Baixe o arquivo que melhor corresponde à sua configuração:
 
-- Se você usa apenas CPU (sem placa de vídeo dedicada), escolha uma variante “CPU only” ou “x64” / “ubuntu-x64” / “macos-arm64” etc.;
+- Se você usa apenas CPU (sem placa de vídeo dedicada), escolha uma variante “CPU only” → “x64” / “ubuntu-x64” etc.;
 - Se tem placa NVIDIA, procure variantes com CUDA (ex.: CUDA 12.x ou 13.x, dependendo da sua versão de driver e da idade da placa); e
 - Se tem placa AMD ou Intel Arc, as opções mais comuns são as baseadas em Vulkan (geralmente funcionam bem em Windows e Linux).
 
@@ -222,7 +222,7 @@ Modelo 11 GB + overhead médio 3 GB + KV cache desejado:
 - Se o modelo for um pouco maior que a RAM → use **IQ3_M** ou **UD-Q3_K_M** (perde alguma qualidade mas ganha 20–30% de espaço).
 - NVMe muda **tudo**: em 16 GB + NVMe você consegue rodar até o Qwen3-30B-A3B com 32k de contexto com um pouquinho de swap que não chega a inviabilizar o uso.
 
-- Acima de 9B, prefira Q4_K_M ou inferior. Q5_K_M+ só se tiver RAM sobrando.
+- Prefira Q4_K_M ou inferior para modelo denso acima de 9B em CPU-only.
 
 #### B.2. Tabela 2: Com GPU — VRAM para full offload
 (Contexto 8k–32k, quant Q4_K_M ou UD-Q4_K_XL)
