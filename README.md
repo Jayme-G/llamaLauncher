@@ -113,7 +113,7 @@ Com esses passos você tem o launcher mais simples, prático, rápido e atualiza
 
 Divirta-se com o llamaLauncher! 🦙
 
-## Apêndice: Escolhendo os GGUFs
+## Apêndice: Escolhendo os GGUFs dos modelos de IA
 (Fonte: Hugging Face, Llama Cpp)
 
 ### A. Orientações gerais
@@ -199,7 +199,7 @@ Modelo 11 GB + overhead médio 3 GB + KV cache desejado:
 32k contexto → ~16–17 GB
 64k contexto → ~19 GB (só com 32 GB de RAM e/ou GPU)
 
-### B. Distinção importante: Densos × MoE
+### B. Distinção importante: modelos Densos × modelos MoE
 - **Densos**: Ativam todos os parâmetros o tempo todo. Memória e velocidade seguem o total de parâmetros.
   **Regra prática**: Com 16GB de RAM, acima de ~9B com quantização **maior que Q5_K_M não roda bem** em CPU-only - fica lento demais e/ou não cabe direito na RAM.
 
@@ -209,7 +209,7 @@ Modelo 11 GB + overhead médio 3 GB + KV cache desejado:
 
 **Exemplo**: gpt-oss-20B UD-Q4_K_XL (~11 GB) → roda **rápido** em CPU-only com 16 GB RAM com NVME ou SSD (e ainda sobra espaço pro contexto). É MoE, por isso fica rápido!
 
-#### B.1. Tabela 1: CPU-only (sem GPU) - Recomendação por RAM
+#### B.1. Tabela 1: CPU-only (sem GPU) - Recomendação de quantidade máxima de parâmetros de modelos por quantidade de memória RAM
 (Contexto 8k–32k, quant Q4_K_M ou UD-Q4_K_XL)
 
 | RAM do PC     | Máx. Denso (total params) | Exemplo denso (GGUF) | Máx. MoE (total params) | Exemplo MoE (GGUF)                          |
@@ -224,7 +224,7 @@ Modelo 11 GB + overhead médio 3 GB + KV cache desejado:
 
 - Prefira Q4_K_M ou inferior para modelo denso acima de 9B em CPU-only.
 
-#### B.2. Tabela 2: Com GPU — VRAM para full offload
+#### B.2. Tabela 2: Com GPU - Recomendação de quantidade máxima de parâmetros de modelos por quantidade de memória VRAM
 (Contexto 8k–32k, quant Q4_K_M ou UD-Q4_K_XL)
 
 | VRAM da GPU   | Máx. Denso full offload     | Máx. MoE full offload       | Velocidade (t/s) |
