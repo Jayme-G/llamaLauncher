@@ -2,10 +2,10 @@
 
 <p align="center">
   <img src="https://github.com/Jayme-G/llamaLauncher/blob/main/llama_icon.png"
-       alt="The llama is a ruminant mammal from South America" width="300"/>
+       alt="The llama is a ruminant mammal from South America" width="250"/>
 </p>
 
-# GUI simplificada para execução de modelos de linguagem (GGUF)
+## GUI simplificada para execução de modelos de linguagem (GGUF)
 
 ## Instruções de uso do llama Launcher versão 1.40 🦙  
 
