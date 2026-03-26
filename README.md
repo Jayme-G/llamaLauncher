@@ -9,7 +9,7 @@
 
 ## Instruções de uso do llama Launcher versão 1.40 🦙  
 
-O 🦙 llama Launcher é uma aplicação ultra leve e multiplataforma (testado em Windows e Linux), feito 100% em Python para executar modelos de linguagem (GGUF) com o poderoso llama.cpp. Oferece GUI simplificada com configuração e salvamento de parâmetros, suporte multimodal (mmproj) e aceleração por GPU (se disponível) com foco em privacidade - tudo rodando 100% local no seu computador.
+O llama Launcher é uma aplicação ultra leve e multiplataforma (testado em Windows e Linux), feito 100% em Python para executar modelos de linguagem (GGUF) com o poderoso llama.cpp. Oferece GUI simplificada com configuração e salvamento de parâmetros, suporte multimodal (mmproj) e aceleração por GPU (se disponível) com foco em privacidade - tudo rodando 100% local no seu computador.
 
 **Aviso Legal / Disclaimer**
 
