@@ -2,18 +2,24 @@
 
 ## 1. Sobre o llamaLauncher (Frontend)
 
-O 🦙 llama Launcher é uma aplicação ultra leve e multiplataforma (testado em Windows e Linux), feito 100% em Python para executar modelos de linguagem (GGUF) com o poderoso llama.cpp. Oferece GUI simplificada com configuração e salvamento de parâmetros, suporte multimodal (mmproj) e aceleração por GPU (se disponível) com foco em privacidade - tudo rodando 100% local no seu computador.
+- O llama Launcher é uma aplicação ultra leve e multiplataforma (testado em Windows e Linux), feito 100% em Python para executar modelos de linguagem (GGUF) com o poderoso llama.cpp. Oferece GUI simplificada com configuração e salvamento de parâmetros, suporte multimodal (mmproj) e aceleração por GPU (se disponível) com foco em privacidade - tudo rodando 100% local no seu computador.
+
+- Repositório: https://github.com/Jayme-G/llamaLauncher
 
 ## 2. Aviso Legal / Disclaimer
 
-O llamaLauncher é um lançador de código aberto que facilita a execução de binários do llama.cpp (projeto MIT do repositório https://github.com/ggml-org/llama.cpp) e de modelos GGUF compatíveis.
-O autor **não** é responsável, de forma alguma, pelo uso que os usuários venham a fazer da ferramenta ou dos modelos carregados por ela.
-Em particular, o autor **não endossa nem se responsabiliza** por:
-- Conteúdo gerado pelos modelos (incluindo, mas não limitado a: desinformação, discurso de ódio, conteúdo ilegal, difamação, violação de direitos autorais);
-- Uso dos modelos em desacordo com as licenças respectivas; e
-- Qualquer dano direto ou indireto causado pelo uso ou pelos outputs gerados.
-O software é fornecido "como está", sem garantias de qualquer espécie (expressas ou implícitas), incluindo, mas não se limitando a, garantias de adequação a um propósito específico, não violação de direitos ou funcionamento ininterrupto.
-O uso desta ferramenta é de exclusiva responsabilidade do usuário final, que deve respeitar todas as leis aplicáveis, as licenças dos modelos e as políticas de uso aceitável dos provedores originais.
+- O llamaLauncher é um lançador de código aberto que facilita a execução de binários do llama.cpp (projeto MIT do repositório https://github.com/ggml-org/llama.cpp) e de modelos GGUF compatíveis.
+
+- O autor **não** é responsável, de forma alguma, pelo uso que os usuários venham a fazer da ferramenta ou dos modelos carregados por ela.
+
+- Em particular, o autor **não endossa nem se responsabiliza** por:
+	- Conteúdo gerado pelos modelos (incluindo, mas não limitado a: desinformação, discurso de ódio, conteúdo ilegal, difamação, violação de direitos autorais);
+	- Uso dos modelos em desacordo com as licenças respectivas; e
+	- Qualquer dano direto ou indireto causado pelo uso ou pelos outputs gerados.
+
+- O software é fornecido "como está", sem garantias de qualquer espécie (expressas ou implícitas), incluindo, mas não se limitando a, garantias de adequação a um propósito específico, não violação de direitos ou funcionamento ininterrupto.
+
+- O uso desta ferramenta é de exclusiva responsabilidade do usuário final, que deve respeitar todas as leis aplicáveis, as licenças dos modelos e as políticas de uso aceitável dos provedores originais.
 
 ## 3. Licença do llamaLauncher (Frontend)
 
@@ -49,8 +55,8 @@ Veja em: https://opensource.org/licenses/MIT
 
 ## 5. Backend license:
 
-llama.cpp - Engine de inferência de Large Language Models (LLM) em C/C++ de alto desempenho, com suporte a vários backends (CPU, GPU via CUDA/Metal/Vulkan/etc.) e formato GGUF. É a base principal deste launcher para execução local de modelos de linguagem. Licenciado sob a MIT License. Veja em: https://github.com/ggml-org/llama.cpp e https://github.com/ggml-org/llama.cpp/blob/master/LICENSE
+- llama.cpp - Engine de inferência de Large Language Models (LLM) em C/C++ de alto desempenho, com suporte a vários backends (CPU, GPU via CUDA/Metal/Vulkan/etc.) e formato GGUF. É a base principal deste launcher para execução local de modelos de linguagem. Licenciado sob a MIT License. Veja em: https://github.com/ggml-org/llama.cpp e https://github.com/ggml-org/llama.cpp/blob/master/LICENSE
 
 ## 6. Empacotador:
 
-pyinstaller - ferramenta que permite empacotar uma aplicação python e todas as suas dependências em um único pacote. Ele está licenciado sob uma licença dual, usando tanto a licença GPL 2.0, com uma exceção que permite usá-lo para construir produtos comerciais e a licença Apache, versão 2.0. Veja em: <https://pyinstaller.org/en/stable/license.html>.
+- pyinstaller - ferramenta que permite empacotar uma aplicação python e todas as suas dependências em um único pacote. Ele está licenciado sob uma licença dual, usando tanto a licença GPL 2.0, com uma exceção que permite usá-lo para construir produtos comerciais e a licença Apache, versão 2.0. Veja em: <https://pyinstaller.org/en/stable/license.html>.
