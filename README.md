@@ -120,6 +120,9 @@ Baixe o arquivo que melhor corresponde à sua configuração:
 
 Com esses passos você tem o launcher mais simples, prático, rápido e atualizado possível para utilização de modelos locais.
 
+Encontrou algum bug? Tem sugestão ou melhoria? 
+→ Por favor abra uma issue ou mande sua ideia!
+
 Divirta-se com o llamaLauncher! 🦙
 
 ## Apêndice: Escolhendo os GGUFs dos modelos de IA
